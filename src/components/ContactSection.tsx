@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Mail, Linkedin, Send } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
@@ -28,9 +27,8 @@ export default function ContactSection() {
         <div className="grid lg:grid-cols-2 gap-12 mt-12">
           <div>
             <div className="rounded-lg overflow-hidden h-[400px] shadow-lg border border-neonGreen/20 mb-6">
-              {/* Using the uploaded contact image */}
               <img 
-                src="https://images.unsplash.com/photo-1500673922987-e212871fec22" 
+                src="public/lovable-uploads/d1b3dda9-980a-4477-8128-cb41b6bfde83.png" 
                 alt="Contact" 
                 className="w-full h-full object-cover"
               />

@@ -5,12 +5,12 @@ const certifications = [
   {
     title: "CCNA Cisco Module 1 & 2",
     issuer: "Cisco",
-    year: 2024,
+    year: 2025, // Updated to 2025
   },
   {
     title: "Python Essentials 1 & 2",
     issuer: "Cisco",
-    year: 2024,
+    year: 2025, // Updated to 2025
   },
   {
     title: "Introduction to Cyber Security",
