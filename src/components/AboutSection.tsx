@@ -50,15 +50,22 @@ export default function AboutSection() {
         
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden h-full shadow-lg border border-neonGreen/20">
-            {/* Updated About Me image */}
+            {/* Updated About Me image with the second image */}
             <img 
-              src="public/lovable-uploads/07b10269-c88e-4084-afaa-f8f86af4c826.png" 
+              src="public/lovable-uploads/43595059-cd21-417f-9fef-40391c89a102.png" 
               alt="About Me" 
               className="w-full h-full object-cover"
             />
           </div>
 
           <div className="bg-darkGray/50 rounded-lg p-6 border border-neonGreen/20">
+            {/* Highlighted achievement first in My Story section */}
+            <div className="bg-neonGreen/20 p-4 rounded-lg border border-neonGreen mb-6 animate-pulse">
+              <p className="text-neonGreen font-bold text-lg">
+                🏆 Top 250 Finalist in Walmart CodeHers 2025
+              </p>
+            </div>
+            
             <h3 className="text-xl font-semibold mb-4 text-neonGreen">My Story</h3>
             <p className="text-coolGray mb-4">
               As a Computer Science & Engineering student specializing in AI and Data Science at Vignan's Institute of 
@@ -69,13 +76,6 @@ export default function AboutSection() {
               My academic journey has been complemented by hands-on projects in machine learning, data analysis, and 
               full-stack development, allowing me to apply classroom knowledge to real-world scenarios.
             </p>
-            
-            {/* Highlighted achievement with pulsing effect */}
-            <div className="bg-neonGreen/20 p-4 rounded-lg border border-neonGreen mb-4 animate-pulse">
-              <p className="text-neonGreen font-bold text-lg">
-                🏆 Top 250 Finalist in Walmart CodeHers 2025
-              </p>
-            </div>
             
             <p className="text-coolGray">
               Currently, I'm focusing on expanding my expertise in AI/ML frameworks, cloud technologies, and full-stack 

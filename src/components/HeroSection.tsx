@@ -37,9 +37,13 @@ export default function HeroSection() {
       <div className="section-container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col justify-center order-2 md:order-1 animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold mb-2">
               Hi, I'm <span className="text-neonGreen">Routhu Kiranmai</span>
             </h1>
+            
+            <p className="text-lg md:text-xl mb-4 text-coolGray">
+              Student from Vignan's Institute of Information Technology
+            </p>
             
             <div className="h-12 mb-6">
               <p className="text-xl md:text-2xl font-medium mb-6">
@@ -55,7 +59,7 @@ export default function HeroSection() {
               </div>
             </div>
             
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 mb-8">
               <a 
                 href="#projects" 
                 className="button-primary"
@@ -69,13 +73,20 @@ export default function HeroSection() {
                 Get in Touch
               </a>
             </div>
+            
+            {/* New motivational quote */}
+            <div className="bg-neonGreen/10 p-4 rounded-lg border border-neonGreen/30 animate-pulse">
+              <p className="text-center text-lg md:text-xl font-medium text-neonGreen">
+                "MIRACLES HAPPEN TO THOSE WHO BELIEVE IN THEM"
+              </p>
+            </div>
           </div>
           
           <div className="relative flex justify-center order-1 md:order-2">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-neonGreen shadow-[0_0_25px_rgba(0,255,136,0.5)] animate-float">
-              {/* Profile image placeholder - will be replaced by uploaded image */}
+              {/* Updated profile image */}
               <img 
-                src="public/lovable-uploads/ad925a73-2c76-489d-8bf9-0c48bda78787.png" 
+                src="public/lovable-uploads/f85e9beb-ea22-4f10-a9c1-b4a7359b4d23.png" 
                 alt="Routhu Kiranmai" 
                 className="w-full h-full object-cover"
               />
