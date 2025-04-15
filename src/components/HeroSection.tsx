@@ -84,9 +84,8 @@ export default function HeroSection() {
           
           <div className="relative flex justify-center order-1 md:order-2">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-neonGreen shadow-[0_0_25px_rgba(0,255,136,0.5)] animate-float">
-              {/* Updated profile image */}
               <img 
-                src="public/lovable-uploads/f85e9beb-ea22-4f10-a9c1-b4a7359b4d23.png" 
+                src="/lovable-uploads/f85e9beb-ea22-4f10-a9c1-b4a7359b4d23.png" 
                 alt="Routhu Kiranmai" 
                 className="w-full h-full object-cover"
               />
@@ -105,7 +104,6 @@ export default function HeroSection() {
         <ChevronDown size={32} />
       </a>
       
-      {/* Decorative elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 bg-neonGreen/10 rounded-full filter blur-3xl"></div>
       <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-neonGreen/10 rounded-full filter blur-3xl"></div>
     </section>

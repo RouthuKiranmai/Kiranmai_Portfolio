@@ -1,3 +1,4 @@
+
 import { Code, Coffee, Lightbulb } from "lucide-react";
 
 export default function AboutSection() {
@@ -50,7 +51,7 @@ export default function AboutSection() {
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden h-full shadow-lg border border-neonGreen/20">
             <img 
-              src="public/lovable-uploads/063e6f88-7488-48fe-b4af-1da6505ab69b.png" 
+              src="/lovable-uploads/063e6f88-7488-48fe-b4af-1da6505ab69b.png" 
               alt="About Me" 
               className="w-full h-full object-cover"
             />

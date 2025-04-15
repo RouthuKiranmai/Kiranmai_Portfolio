@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Mail, Linkedin, Send } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
@@ -28,7 +29,7 @@ export default function ContactSection() {
           <div>
             <div className="rounded-lg overflow-hidden h-[400px] shadow-lg border border-neonGreen/20 mb-6">
               <img 
-                src="public/lovable-uploads/d1b3dda9-980a-4477-8128-cb41b6bfde83.png" 
+                src="/lovable-uploads/d1b3dda9-980a-4477-8128-cb41b6bfde83.png" 
                 alt="Contact" 
                 className="w-full h-full object-cover"
               />

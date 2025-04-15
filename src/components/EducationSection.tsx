@@ -31,9 +31,8 @@ export default function EducationSection() {
         <div className="grid lg:grid-cols-5 gap-8 mt-12">
           <div className="lg:col-span-2 order-2 lg:order-1">
             <div className="rounded-lg overflow-hidden h-full shadow-lg border border-neonGreen/20">
-              {/* Updated education image */}
               <img 
-                src="public/lovable-uploads/a283fe89-d4f7-4461-88eb-2b478da85899.png" 
+                src="/lovable-uploads/a283fe89-d4f7-4461-88eb-2b478da85899.png" 
                 alt="Education" 
                 className="w-full h-full object-cover"
               />
