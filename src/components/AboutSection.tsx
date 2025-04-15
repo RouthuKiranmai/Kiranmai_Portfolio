@@ -1,4 +1,3 @@
-
 import { Code, Coffee, Lightbulb } from "lucide-react";
 
 export default function AboutSection() {
@@ -50,18 +49,16 @@ export default function AboutSection() {
         
         <div className="mt-12 grid md:grid-cols-2 gap-8">
           <div className="rounded-lg overflow-hidden h-full shadow-lg border border-neonGreen/20">
-            {/* Updated About Me image with the second image */}
             <img 
-              src="public/lovable-uploads/43595059-cd21-417f-9fef-40391c89a102.png" 
+              src="public/lovable-uploads/063e6f88-7488-48fe-b4af-1da6505ab69b.png" 
               alt="About Me" 
               className="w-full h-full object-cover"
             />
           </div>
 
           <div className="bg-darkGray/50 rounded-lg p-6 border border-neonGreen/20">
-            {/* Highlighted achievement first in My Story section */}
-            <div className="bg-neonGreen/20 p-4 rounded-lg border border-neonGreen mb-6 animate-pulse">
-              <p className="text-neonGreen font-bold text-lg">
+            <div className="bg-neonGreen/20 p-6 rounded-lg border-4 border-neonGreen mb-6 text-center animate-pulse">
+              <p className="text-neonGreen font-bold text-2xl">
                 🏆 Top 250 Finalist in Walmart CodeHers 2025
               </p>
             </div>
@@ -85,7 +82,6 @@ export default function AboutSection() {
         </div>
       </div>
       
-      {/* Decorative elements */}
       <div className="absolute top-1/3 left-0 w-1/3 h-1/3 bg-neonGreen/5 rounded-full filter blur-3xl"></div>
     </section>
   );
